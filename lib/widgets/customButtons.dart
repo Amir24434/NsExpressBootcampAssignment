@@ -23,7 +23,7 @@ class CustomButton extends StatelessWidget {
         child: ElevatedButton(
           onPressed: onTap,
           style: ElevatedButton.styleFrom(
-            padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
+            padding: const EdgeInsets.fromLTRB(0, 15, 0, 15),
             backgroundColor: const Color.fromARGB(255, 41, 31, 57),
             shadowColor: Colors.white,
             shape:
@@ -62,7 +62,7 @@ class CustomButton2 extends StatelessWidget {
         child: ElevatedButton(
           onPressed: onTap,
           style: ElevatedButton.styleFrom(
-            padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
+            padding: const EdgeInsets.fromLTRB(0, 15, 0, 15),
             backgroundColor: const Color.fromARGB(255, 235, 129, 111),
             shadowColor: const Color.fromARGB(235, 235, 129, 111),
             shape:
